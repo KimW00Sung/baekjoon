@@ -9,6 +9,7 @@ vec2 result,temp;
 void print_matrix(vec2 matrix,int N);
 void naive_matpower(int n,vec2 &matrix,vec2 &matrix2);
 void matpower(int n,long long b);
+
 int main(){
     int N;cin>>N;
     long long B;cin>>B;
