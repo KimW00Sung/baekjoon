@@ -1,3 +1,5 @@
+/*vector type을 함수 parameter로 전달할때는 call by reference롤 해야 vector안의 value들 변경이 가능하다
+Why? parameter로 전달할때 기존의 vector를 copy해서 pass하기 때문!!*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
